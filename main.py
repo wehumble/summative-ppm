@@ -14,9 +14,9 @@ from utils import load_data, save_data, parse_date, validate_email
 
 console = Console()
 
-# ----------------------------------------------------------------------
+
 # Command Handlers
-# ----------------------------------------------------------------------
+
 def add_user(args):
     """Handle add-user command."""
     data = load_data()
@@ -118,9 +118,9 @@ def list_users(args):
         table.add_row(str(user.id), user.name, user.email, str(len(user.project_ids)))
     console.print(table)
 
-# ----------------------------------------------------------------------
+
 # Main CLI setup
-# ----------------------------------------------------------------------
+
 def main():
     parser = argparse.ArgumentParser(
         description="Project Management CLI Tool",

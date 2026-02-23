@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data file (optional; if you want to keep data local but not in repo)
+data/project_tracker.json
+
+# IDE files
+.vscode/
+.idea/
+
+# pytest cache
+.pytest_cache/

@@ -1,8 +1,35 @@
 {
-    "users": [],
-    "projects": [],
-    "tasks": [],
-    "next_user_id": 1,
-    "next_project_id": 1,
-    "next_task_id": 1
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex",
+      "email": "alex@gmail.com",
+      "project_ids": [
+        1
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "CLI Tool",
+      "description": "Build a project management CLI",
+      "due_date": "2025-06-01",
+      "owner_id": 1,
+      "task_ids": [
+        1
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Implement add-task",
+      "status": "completed",
+      "assigned_to": 1
+    }
+  ],
+  "next_user_id": 2,
+  "next_project_id": 2,
+  "next_task_id": 2
+}
